@@ -4,7 +4,6 @@
 body{
     padding-top: 44px;
     background: #ecfff0;
-
 }
 body.lock{
     overflow: hidden;
@@ -50,6 +49,14 @@ body.lock{
 .icon_6987{
     margin-left: 24%;
     margin-top: -1%;
+}
+.icon_6981{
+    margin-left: 7%;
+    margin-top: 20%;
+}
+.icon_6985{
+    margin-left: 9%;
+    margin-top: 1%;
 }
 .popup {
     position: fixed;
@@ -99,11 +106,14 @@ body.lock{
     padding: 30px;
     position: relative;
 }
+.popup__image img{
+    max-width: 100%;
+}
 .popup__close{
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 37px;
+    top: 37px;
     font-size:20px;
-    color: red;
+    color: black;
     text-decoration: none;
 }

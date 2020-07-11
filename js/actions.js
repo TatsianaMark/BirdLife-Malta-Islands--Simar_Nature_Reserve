@@ -64,6 +64,7 @@ function bodyLock() {
             el.style.paddingRight = lockPaddingValue;
         }
     }
+
         body.style.paddingRight = lockPaddingValue;
         body.classList.add('lock');
 
@@ -93,10 +94,45 @@ function bodyUnLock() {
 
 document.addEventListener('keydown',function (e) {
     if(e.which === 27){
-        const popupActive= document.querySelector('.popup.open');
+        const popupActive = document.querySelector('.popup.open');
         popupClose(popupActive);
     }
 });
+
+(function () {
+    //check support browsers
+    if (!Element.prototype.closest){
+        //release
+        Element.prototype.closest = function (css) {
+            var node =this;
+            while (node){
+                if(node.matches(css))return node;
+                else node = node.parentElement;
+            }
+            return null;
+        };
+    }
+})();
+(function () {
+    //check support browsers
+    if (!Element.prototype.matches){
+        //add-s
+        Element.prototype.matches =Element.prototype.matchesSelector ||
+            Element.prototype.webkitMatchesSelector ||
+            Element.prototype.mozMatchesSelector ||
+            Element.prototype.msMatchesSelector;
+    }
+})();
+
+
+
+
+
+
+
+
+
+
 
 
 
