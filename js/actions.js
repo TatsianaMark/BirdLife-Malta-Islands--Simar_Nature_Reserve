@@ -4,7 +4,7 @@ const lockPadding = document.querySelectorAll(".lock-padding");
 
 let unlock = true;
 
-const timeout = 500;
+const timeout = 100;
 
 if(popupLinks.length > 0) {
     for (let index = 0; index < popupLinks.length; index++){
@@ -104,7 +104,7 @@ document.addEventListener('keydown',function (e) {
     if (!Element.prototype.closest){
         //release
         Element.prototype.closest = function (css) {
-            var node =this;
+            var node =  this;
             while (node){
                 if(node.matches(css))return node;
                 else node = node.parentElement;
