@@ -4,7 +4,7 @@ const lockPadding = document.querySelectorAll(".lock-padding");
 
 let unlock = true;
 
-const timeout = 100;
+const timeout = 500;
 
 if(popupLinks.length > 0) {
     for (let index = 0; index < popupLinks.length; index++){
@@ -28,6 +28,7 @@ if (popupCloseIcon.length > 0) {
         });
     }
 }
+
 
 function popupOpen(curentPopup) {
     if (curentPopup && unlock) {
@@ -56,7 +57,8 @@ function popupClose(popupActive, doUnlock = true) {
 }
 
 function bodyLock() {
-    const lockPaddingValue = window.innerWidth - document.querySelector('.container').offsetWidth + 'px';
+    const lockPaddingValue = window.innerWidth - document.body.offsetWidth + 'px';
+    // const lockPaddingValue = window.innerWidth - document.querySelector('.container').offsetWidth + 'px';
 
     if (lockPadding.length > 0) {
         for (let index = 0; index < lockPadding.length; index++) {

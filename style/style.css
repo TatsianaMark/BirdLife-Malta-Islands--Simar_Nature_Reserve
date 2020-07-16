@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    padding-top: 44px;
+    margin: 0;
     background: #ecfff0;
 }
 body.lock{
@@ -35,11 +35,9 @@ body.lock{
     background: url('../img/Island_13.svg') top center no-repeat;
 }
 .section_a{
-    border: red 1px solid;
     height: 33rem;
 }
 .section_b{
-    border: blue 1px solid;
     height: 33rem;
 }
 .icon{
@@ -139,9 +137,9 @@ body.lock{
     left: 0;
     opacity: 0;
     visibility: hidden;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transition: all 0.1s ease 0s;
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+    transition: all 0.5s ease 0s;
 }
 /*.popup-2{*/
     /*position: fixed;*/
@@ -159,6 +157,7 @@ body.lock{
 .popup.open{
    opacity: 1;
     visibility: visible;
+    transition: all 0.5s ease 0s;
 }
 
 /*.popup__area{*/
@@ -178,12 +177,16 @@ body.lock{
     padding: 30px;
     position: relative;
 }
+.popup__image{
+    margin: auto;
+    max-width: 75%;
+}
 .popup__image img{
     max-width: 100%;
 }
 .popup__close{
     position: absolute;
-    right: 37px;
+    right: 161px;
     top: 37px;
     font-size:20px;
     color: black;
