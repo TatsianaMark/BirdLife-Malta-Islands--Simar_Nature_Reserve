@@ -28,17 +28,21 @@ body.lock{
     text-align: center;
     font-size: 25px;
 }
-.island-13{
+.island{
+    height: 1200px;
+}
+.number-13{
     display: flex;
     flex-direction: column;
-    height: 760px;
     background: url('../img/Island_13.svg') top center no-repeat;
 }
 .section_a{
-    height: 33rem;
+    border: red 1px solid;
+    height: 50%;
 }
 .section_b{
-    height: 33rem;
+    border: blue 1px solid;
+    height: 50%;
 }
 .icon{
     /*opacity: 0;*/
@@ -50,71 +54,72 @@ body.lock{
     height: 20px;
 }
 .icon_6984{
-    margin-left: 13%;
-    margin-top: 15%;
+    margin-left: 21%;
+    margin-top: 11%;
 }
 .icon_6987{
-    margin-left: 24%;
+    margin-left: 29%;
     margin-top: -1%;
 }
 .icon_6981{
-    margin-left: 7%;
-    margin-top: 20%;
+    margin-left: 16%;
+    margin-top: 15%;
 }
 .icon_6985{
-    margin-left: 9%;
+    margin-left: 18%;
     margin-top: 1%;
 }
 .icon_6986{
-    margin-left: 19%;
-    margin-top: -6%;
+    margin-left: 25%;
+    margin-top: -6%
 }
 .icon_6982{
-    margin-left: 24%;
+    margin-left: 29%;
+    margin-top: 9%;
 }
 .icon_6979{
-    margin-left: 54%;
-    margin-top: -6%;
+    margin-left: 53%;
+    margin-top: -5%;
 }
 .icon_6977{
-    margin-top: 1%;
-    margin-left: 51%;
+    margin-top: 0%;
+    margin-left: 50%;
 }
 .icon_6978{
-    margin-top: 5%;
-    margin-left: 54%;
+    margin-top: 4%;
+    margin-left: 53%;
 }
 .icon_6973{
     margin-top: -1%;
-    margin-left: 72%;
+    margin-left: 66%;
 }
 .icon_6976{
-    margin-top: 5%;
-    margin-left: 51%;
+    margin-top: 3%;
+    margin-left: 50%;
 }
 .icon_6975{
-    margin-top: 4%;
-    margin-left: 55%;
+    margin-top: 2%;
+    margin-left: 54%;
 }
 .icon_6974{
     margin-top: 1%;
     margin-left: 61%;
 }
 .icon_6974{
-    margin-top: 1%;
-    margin-left: 61%;
+    margin-top: 0%;
+    margin-left: 58%;
 }
 .icon_6971{
-    margin-top: -8%;
-    margin-left: 75%;
+    margin-top: 0%;
+    margin-left: 69%;
 }
 .icon_6969{
-    margin-top: 13%;
-    margin-left: 63%;
+    margin-top: 10%;
+    margin-left: 60%;
 }
 .icon_6972{
     margin-top: 0%;
-    margin-left: 76%;
+    margin-left: 69%;
 }
 
 .icon_6964{
@@ -190,10 +195,9 @@ body.lock{
     text-decoration: none;
 }
 /*-----------End main structure---------------*/
-.island-6{
+.number-6{
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-    height: 760px;
     background: url('../img/island-6.svg') top center no-repeat;
 }
