@@ -58,6 +58,7 @@ function popupClose(popupActive, doUnlock = true) {
 
 function bodyLock() {
     const lockPaddingValue = window.innerWidth - document.body.offsetWidth + 'px';
+    // Don't do like this!
     // const lockPaddingValue = window.innerWidth - document.querySelector('.container').offsetWidth + 'px';
 
     if (lockPadding.length > 0) {

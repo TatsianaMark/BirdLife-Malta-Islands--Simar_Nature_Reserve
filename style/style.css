@@ -22,7 +22,7 @@ body.lock{
 .article{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 2%;
+    margin: 2%;
 }
 .header{
     text-align: center;
@@ -31,7 +31,7 @@ body.lock{
 .island-13{
     display: flex;
     flex-direction: column;
-    height: 760rem;
+    height: 760px;
     background: url('../img/Island_13.svg') top center no-repeat;
 }
 .section_a{
@@ -41,7 +41,12 @@ body.lock{
     height: 33rem;
 }
 .icon{
-    width: 20px;
+    /*opacity: 0;*/
+    width: 26px;
+    height: 20px;
+}
+.icon_popup{
+    width: 26px;
     height: 20px;
 }
 .icon_6984{
@@ -159,14 +164,6 @@ body.lock{
     visibility: visible;
     transition: all 0.5s ease 0s;
 }
-
-/*.popup__area{*/
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*top: 0;*/
-    /*left: 0;*/
-/*}*/
 .popup__body{
     min-height: 100%;
     display: flex;
@@ -191,4 +188,12 @@ body.lock{
     font-size:20px;
     color: black;
     text-decoration: none;
+}
+/*-----------End main structure---------------*/
+.island-6{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 760px;
+    background: url('../img/island-6.svg') top center no-repeat;
 }
