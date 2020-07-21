@@ -9,7 +9,6 @@ body.lock{
     overflow: hidden;
 }
 .container{
-    border: green 1px solid;
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -44,7 +43,7 @@ body.lock{
     height: 50%;
 }
 .icon{
-    /*opacity: 0;*/
+    opacity: 0;
     width: 26px;
     height: 20px;
 }
