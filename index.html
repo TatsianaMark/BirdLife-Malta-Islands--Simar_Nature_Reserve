@@ -43,11 +43,13 @@
                     <img src="img/cam.svg" alt="camera">
                 </a>
             </div>
+            <!----------------SLIDER island 13------------------>
             <div class="icon icon_6979">
                 <a href="#popup-7" class="popup-link">
                     <img src="img/cam.svg" alt="camera">
                 </a>
             </div>
+            <!----------------SLIDER island 13------------------>
             <div class="icon icon_6982">
                 <a href="#popup-6" class="popup-link">
                     <img src="img/cam.svg" alt="camera">
@@ -333,8 +335,21 @@
             <a href="#" class="icon_popup popup__close close-popup">
                 <img src="img/close.svg" alt="close">
             </a>
-            <div class="popup__image">
-                <img src="img/island13/DSCF6979.jpg" alt="photo">
+            <div class="slideshow-container">
+                <div class="popup__image mySlides fade">
+                    <img src="img/island13/DSCF6979.jpg" alt="photo">
+                </div>
+                <div class="popup__image mySlides fade">
+                    <img src="img/island13/DSCF6980.jpg" alt="photo">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+                <br>
+
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
             </div>
         </div>
         <!-- /.popup__content -->
