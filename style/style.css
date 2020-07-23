@@ -43,7 +43,7 @@ body.lock{
     height: 50%;
 }
 .icon{
-    opacity: 0;
+    /*opacity: 0;*/
     width: 26px;
     height: 20px;
 }
@@ -332,6 +332,22 @@ body.lock{
 @keyframes fade {
     from{opacity: .4}
     to{opacity: 1}
+}
+
+/*-----------island11-------------*/
+.number-11{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    background: url('../img/Island 11.svg') top center no-repeat;
+}
+.icon_7104{
+    margin-top: 24%;
+    margin-left: 78%;
+}
+.icon_7103{
+    margin-top: 18%;
+    margin-left: 82%;
 }
 
 
