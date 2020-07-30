@@ -1,8 +1,4 @@
-const popupLinks = document.querySelectorAll('.popup-link');
-const body = document.querySelector('body');
-const lockPadding = document.querySelectorAll(".lock-padding");
-
-
+// ------------------- slidesisland9
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -34,6 +30,15 @@ function showSlides(n){
     slides[slideIndex -1].style.display = "block";
     dots[slideIndex-1].className+= "active";
 }
+
+// ------------------- END slidesisland9
+
+const popupLinks = document.querySelectorAll('.popup-link');
+const body = document.querySelector('body');
+const lockPadding = document.querySelectorAll(".lock-padding");
+
+
+
 
 let unlock = true;
 
