@@ -1,3 +1,5 @@
+alert("Please press OK and wait when the download is complete :)")
+
 // ------------------- slidesisland9
 let slideIndex = 1;
 showSlides(slideIndex);
