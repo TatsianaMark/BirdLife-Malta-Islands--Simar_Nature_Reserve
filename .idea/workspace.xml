@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b04ae37-f09f-4b34-acd9-2d202c571ec5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="813" column="38" selection-start-line="813" selection-start-column="38" selection-end-line="813" selection-end-column="38" />
+                <state relative-caret-position="166">
+                  <caret line="816" column="20" lean-forward="true" selection-start-line="816" selection-start-column="20" selection-end-line="816" selection-end-column="20" />
                   <folding>
                     <element signature="e#463#4760#0" />
                     <element signature="e#4801#4857#0" />
@@ -123,8 +120,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
-                  <caret line="839" column="19" selection-start-line="839" selection-start-column="19" selection-end-line="839" selection-end-column="19" />
+                <state relative-caret-position="46">
+                  <caret line="835" column="21" lean-forward="true" selection-start-line="835" selection-start-column="21" selection-end-line="835" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -153,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="660" />
     <option name="y" value="3" />
     <option name="width" value="1056" />
@@ -205,7 +202,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607965865686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607966149179" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -277,12 +274,20 @@
       <workItem from="1601545950896" duration="642000" />
       <workItem from="1602074291090" duration="10414000" />
       <workItem from="1607947693143" duration="991000" />
-      <workItem from="1607949049615" duration="9846000" />
+      <workItem from="1607949049615" duration="10278000" />
     </task>
+    <task id="LOCAL-00001" summary="[feature] added new island">
+      <created>1607965853748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607965853748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9846000" />
+    <option name="totallyTimeSpent" value="10278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -293,13 +298,13 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.08525755" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5275311" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -322,11 +327,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feature] added new island" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] added new island" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="813" column="38" selection-start-line="813" selection-start-column="38" selection-end-line="813" selection-end-column="38" />
+        <state relative-caret-position="166">
+          <caret line="816" column="20" lean-forward="true" selection-start-line="816" selection-start-column="20" selection-end-line="816" selection-end-column="20" />
           <folding>
             <element signature="e#463#4760#0" />
             <element signature="e#4801#4857#0" />
@@ -419,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="839" column="19" selection-start-line="839" selection-start-column="19" selection-end-line="839" selection-end-column="19" />
+        <state relative-caret-position="46">
+          <caret line="835" column="21" lean-forward="true" selection-start-line="835" selection-start-column="21" selection-end-line="835" selection-end-column="21" />
         </state>
       </provider>
     </entry>
