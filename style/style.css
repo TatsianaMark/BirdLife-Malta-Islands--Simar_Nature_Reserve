@@ -14,9 +14,6 @@ body.lock{
     max-width: 1200px;
     margin: auto;
 }
-.margin4{
-    margin-top: -26%;
-}
 .header{
     display: flex;
     justify-content: center;
@@ -725,6 +722,11 @@ body.lock{
     margin-left: 24%;
 }
 /*-----------island 4-------------*/
+
+.pre-last {
+    margin-top: -24%;
+    margin-bottom: -300px;
+}
 .number-4 {
     margin-top: 2%;
     display: flex;
@@ -785,6 +787,112 @@ body.lock{
     margin-left: 68%;
 }
 
+/*-----------island 14-------------*/
+.number-14 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    background: url('../img/Island 14.svg') top center no-repeat;
+}
 
+.icon_7243{
+    margin-top: 20%;
+    margin-left: 85%;
+}
+.icon_7244{
+    margin-top: -4%;
+    margin-left: 82%;
+}
+.icon_7245{
+    margin-top: -3%;
+    margin-left: 64%;
+}
+.icon_7246{
+    margin-top: 1%;
+    margin-left: 67%;
+}
+.icon_7247{
+    margin-top: 10%;
+    margin-left: 46%;
+}
+.icon_7248{
+    margin-top: -1%;
+    margin-left: 39%;
+}
+.icon_7249{
+    margin-top: -3%;
+    margin-left: 37%;
+}
+.icon_7250{
+    margin-top: -7%;
+    margin-left: 40%;
+}
+.icon_7252{
+    margin-top: -7%;
+    margin-left: 58%;
+}
+.icon_7253{
+    margin-top: -4%;
+    margin-left: 60%;
+}
 
-
+.icon_7251-54{
+    margin-top: 7%;
+    margin-left: 44%;
+}
+.icon_7255{
+    margin-top: 0%;
+    margin-left: 47%;
+}
+.icon_7256{
+    margin-top: -11%;
+    margin-left: 41%;
+}
+.icon_7259-60{
+    margin-top: 8%;
+    margin-left: 29%;
+}
+.icon_7261{
+    margin-top: -1%;
+    margin-left: 25%;
+}
+.icon_7262{
+    margin-top: -5%;
+    margin-left: 7%;
+}
+.icon_7263{
+    margin-top: -5%;
+    margin-left: 8%;
+}
+.icon_7264{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.icon_7265{
+    margin-top: 5%;
+    margin-left: 17%;
+}
+.icon_7266{
+    margin-top: 0%;
+    margin-left: 22%;
+}
+.icon_7267{
+    margin-top: -17%;
+    margin-left: 53%;
+}
+.icon_7268{
+    margin-top: -2%;
+    margin-left: 49%;
+}
+.icon_7269{
+    margin-top: 6%;
+    margin-left: 90%;
+}
+.icon_7270{
+    margin-top: -4%;
+    margin-left: 91%;
+}
+.icon_7271{
+    margin-top: -12%;
+    margin-left: 78%;
+}
